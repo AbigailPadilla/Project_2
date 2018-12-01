@@ -1,5 +1,5 @@
 var db = require("../models");
-
+//David was here
 module.exports = function(app) {
   // Get all examples
   app.get("/api/appointments", function(req, res) {
