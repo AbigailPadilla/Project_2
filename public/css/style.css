@@ -1,25 +1,43 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 40px;
-    color:black;
-    /* background-color: rgb(18, 228, 210); */
-    background-image: url("../images/EIAT medical hub.jpg");
-    background-size: cover;
-    background-color: rgba(245, 245, 245, 1);
-    opacity: .4;
-    
-  }
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  line-height: 40px;
+  color:black;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+/* general */
+
+.container {
+  clear: both;
+}
+.home{
+  background-image: url("../images/EIAT medical hub.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.jumbotron{
+  background-color: rgba(245, 245, 245, 0.8);
+  margin-top: 30px;
+}
+.checkin{
+  background-image: url("../images/HealthcareMeasurement.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.limited-width{
+  width: 50%;
+  max-width: 560px;
+  box-sizing: border-box;
+}
+.tables-page{
   
-  * {
-    box-sizing: content-box;
-  }
-  
-  /* general */
-  
-  .container {
-    width: 50%;
-    max-width: 560px;
-    margin: 10 auto;
-    clear: both;
-  }
+}
+card{
+  width: 100%;
+  max-width: 100%;
+}
