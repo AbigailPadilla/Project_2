@@ -3,12 +3,6 @@ body {
     font-size: 30px;
     line-height: 40px;
     color:black;
-    /* background-color: rgb(18, 228, 210); */
-    background-image: url("../images/EIAT medical hub.jpg");
-    background-size: cover;
-    background-color: rgba(245, 245, 245, 1);
-    opacity: .4;
-    
   }
   
   * {
@@ -23,4 +17,9 @@ body {
     margin: 10 auto;
     clear: both;
   }
-  
+  .home{
+    background-image: url("../images/EIAT medical hub.jpg");
+    background-size: cover;
+    background-color: rgba(245, 245, 245, 1);
+    /* opacity: .4; */
+  }
