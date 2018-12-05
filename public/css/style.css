@@ -35,7 +35,9 @@ body {
   box-sizing: border-box;
 }
 .tables-page{
-  
+  background-image: url("../images/Print-OOH-Health.jpg");
+  background-size: cover;
+  min-height: 100vh;
 }
 card{
   width: 100%;
