@@ -1,17 +1,19 @@
 <div class="checkin">
   <div class="container">
       
-      <div class="row limited-width">
-        <div class="col-lg-12">
-          <div class="jumbotron">
+      <div class="row pt-5">
+        <div class="col-sm-12 col-md-6 bbox">
+        </div>
+        <div class="col-sm-12 col-md-6 bbox">
+          <div class="jumbotron light-bg">
             <h1 class="text-center">
               <h1>DR READY</h1>
             <hr>
-            <h2 class="text-center">CHECK IN FOR YOUR APPOINMENT</h2>
+            <h2 class="text-center chk-apt-title">CHECK IN FOR YOUR APPOINMENT</h2>
             <br>
           </div>
           <!-- Check in Page -->
-          <div class="card">
+          <div class="card light-bg">
             <div class="card-header">
               CHECK INTO YOUR APPOINMENT
             </div>
@@ -23,8 +25,8 @@
                 </div>
                 
                 <div class="form-group">
-                  <label for="patient-email">Email</label>
-                  <input type="text" class="form-control" id="patient-email">
+                  <label for="patient-phone">Phone</label>
+                  <input type="text" class="form-control" id="patient-phone">
                 </div>
                 
                 <button type="submit" class="btn btn-primary submit">Submit</button>
@@ -33,13 +35,9 @@
           </div>
         </div>
       </div>
-
-
       <footer class="footer">
-        <div class="container">
-          
+        <div class="container"> 
       </footer>
-
   </div>
 </div>
 
@@ -55,9 +53,8 @@
     // Here we grab the form elements
     var APPOINMENT= {
       patientName: $("#patient-name").val().trim(),
-      
-      patientEmail: $("#patient-email").val().trim(),
-      
+      patientPhone: $("#patient-phone").val().trim(),
+      patientCheckin: new Date().toISOString()
     };
 
     console.log(APPOINMENT);
@@ -83,7 +80,7 @@
         // Clear the form when submitting
         $("#checkin-name").val("");
         
-        $("#checkin-email").val("");
+        $("#checkin-phone").val("");
         
        window,location="/"
       });
