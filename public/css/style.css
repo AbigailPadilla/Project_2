@@ -20,10 +20,6 @@ body {
   min-height: 100vh;
   overflow: hidden;
 }
-.jumbotron{
-  background-color: rgba(245, 245, 245, 0.8);
-  margin-top: 30px;
-}
 .checkin{
   background-image: url("../images/HealthcareMeasurement.jpg");
   background-size: cover;
@@ -42,4 +38,16 @@ body {
 card{
   width: 100%;
   max-width: 100%;
+}
+.bbox{
+  box-sizing: border-box;
+}
+.form-control{
+  box-sizing: border-box;
+}
+.chk-apt-title{
+  padding-bottom: 10px;
+}
+.light-bg{
+  background-color: rgba(245, 245, 245, 0.25);
 }
